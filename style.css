@@ -108,7 +108,7 @@ header .icons .fa-search {
 
 .info .metadata .titleAndButton .moreBtn {
   height: 100%;
-  transition: tranform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 .info .metadata .titleAndButton .moreBtn.clicked {
   transform: rotate(180deg);
