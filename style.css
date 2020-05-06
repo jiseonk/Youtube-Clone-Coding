@@ -206,7 +206,7 @@ header .icons .fa-search {
 }
 
 .upNext .item .img {
-  flex-basis: 35%;
+  flex: 1 1 35%;
   margin-right: var(--padding);
 }
 
@@ -215,13 +215,13 @@ header .icons .fa-search {
 }
 
 .upNext .item .Iteminfo {
-  flex-basis: 60%;
+  flex: 1 1 60%;
   display: flex;
   flex-direction: column;
 }
 
 .upNext .item .moreBtn {
-  flex-basis: 5%;
+  flex: 1 1 5%;
   height: 100%;
 }
 
@@ -246,6 +246,19 @@ header .icons .fa-search {
   }
 
   .upNext {
+    flex: 1 1 40%;
     padding: var(--padding);
+  }
+
+  .info {
+    flex: 1 1 60%;
+  }
+
+  .info .metadata .titleAndButton {
+    position: relative;
+  }
+  .info .metadata .titleAndButton .moreBtn {
+    position: absolute;
+    right: 8px;
   }
 }
