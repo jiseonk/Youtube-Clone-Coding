@@ -214,7 +214,7 @@ header .icons .fa-search {
   width: 100%;
 }
 
-.upNext .item .Iteminfo {
+.upNext .item .itemInfo {
   flex: 1 1 60%;
   display: flex;
   flex-direction: column;
@@ -225,12 +225,12 @@ header .icons .fa-search {
   height: 100%;
 }
 
-.upNext .item .info .title {
+.upNext .item .itemInfo .title {
   font-size: var(--font-small);
 }
 
-.upNext .item .info .name,
-.upNext .item .info .views {
+.upNext .item .itemInfo .name,
+.upNext .item .itemInfo .views {
   font-size: var(--font-micro);
   color: var(--grey-dark-color);
 }
