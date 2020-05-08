@@ -186,6 +186,7 @@ header .icons .fa-search {
   font-size: var(--font-medium);
   background-color: var(--grey-light-color);
   padding: var(--padding);
+  border-radius: 10%;
 }
 
 /* Up Next */
