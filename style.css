@@ -242,6 +242,9 @@ header .icons .fa-search {
 }
 
 @media screen and (min-width: 768px) {
+  .player {
+    z-index: 2;
+  }
   .infoAndUpNext {
     flex-direction: row;
   }
@@ -257,6 +260,7 @@ header .icons .fa-search {
 
   .info .metadata .titleAndButton {
     position: relative;
+    z-index: 1;
   }
   .info .metadata .titleAndButton .moreBtn {
     position: absolute;
